@@ -1,0 +1,17 @@
+{
+  "name": "gulp",
+  "description": "压缩图片",
+  "version": "1.0.0",
+  "scripts": {
+    "start:tinypng": "gulp tinypng",
+    "start:tiny-nokey": "gulp tinypng-nokey",
+    "start:minify": "gulp minify-images",
+    "start:all": "gulp"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^6.1.1",
+    "gulp-tinypng-compress": "^1.2.5",
+    "gulp-tinypng-nokey": "^1.1.0"
+  }
+}
