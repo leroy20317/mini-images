@@ -21,7 +21,7 @@ gulp.task('tinypng-nokey', function (done) {
   done()
 });
 
-// 压缩 public/images 目录内图片(Version>3)
+// 压缩图片(Version>3)
 gulp.task('minify-images', function (done) {
   gulp.src('./entry/**/*.*')
     .pipe(imagemin([
