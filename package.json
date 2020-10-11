@@ -6,11 +6,11 @@
     "start:tinypng": "gulp tinypng",
     "start:tiny-nokey": "gulp tinypng-nokey",
     "start:minify": "gulp minify-images",
-    "start:all": "gulp"
+    "start": "gulp"
   },
   "dependencies": {
     "gulp": "^4.0.2",
-    "gulp-imagemin": "^6.1.1",
+    "gulp-imagemin": "^6.2.0",
     "gulp-tinypng-compress": "^1.2.5",
     "gulp-tinypng-nokey": "^1.1.0"
   }
