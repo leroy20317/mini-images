@@ -9,9 +9,9 @@
     "start": "gulp"
   },
   "dependencies": {
-    "gulp": "^4.0.2",
-    "gulp-imagemin": "^6.2.0",
-    "gulp-tinypng-compress": "^1.2.5",
-    "gulp-tinypng-nokey": "^1.1.0"
+    "gulp": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-tinypng-compress": "latest",
+    "gulp-tinypng-nokey": "latest"
   }
 }
